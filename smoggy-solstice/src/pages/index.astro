@@ -1,0 +1,37 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Button from "../components/actions/button/Button.astro";
+import CommunitiesContainer from "../containers/communitiesContainer/CommunitiesContainer.astro";
+import PeopleContainer from "../containers/peopleContainer/PeopleContainer.astro";
+import ProjectsAndEventsContainer from "../containers/projectsAndEventsContainer/ProjectsAndEventsContainer.astro";
+---
+
+<Layout
+    title="LOCALHOST DWeb Vancouver Webring"
+    description="Lieu-powered DWebYVR webring. Contribute to DWebYVR/localhost_vancouver_webring development by creating an account on GitHub."
+>
+    <section class="max-w-sm">
+        <h1>
+            This is a webring that powers a community search engine powered by
+            Lieu.
+            <br />
+            <br />
+            Visit the repo to add yourself to this page.
+        </h1>
+
+        <div class="flex flex-wrap gap-3 mt-6">
+            <Button variant="primary" title="Add yourself" />
+            <Button
+                variant="secondary"
+                title="Visit the repo"
+                href="https://github.com/DWebYVR/localhost_vancouver_webring"
+            />
+        </div>
+    </section>
+
+    <section class="flex flex-col gap-16 mt-12">
+        <CommunitiesContainer />
+        <PeopleContainer />
+        <ProjectsAndEventsContainer />
+    </section>
+</Layout>

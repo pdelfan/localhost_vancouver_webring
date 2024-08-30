@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-skin-base m-3;
+    }
+
+    main {
+        @apply mt-5 md:mt-14 max-w-5xl mx-auto;
+    }
+
+    h1 {
+        @apply text-skin-base text-2xl font-light;
+    }
+
+    h2 {
+        @apply text-white text-xl font-normal;
+    }
+
+    p {
+        @apply text-skin-base;
+    }
+
+    .content {
+        ul {
+            @apply list-disc ml-4;
+        }
+
+        li {
+            @apply text-skin-base my-2;
+        }
+
+        a {
+            @apply text-skin-link bg-secondary/20 p-1 rounded-md hover:bg-secondary/30;
+        }
+    }
+}
+
+html {
+    font-family: system-ui, sans-serif;
+}

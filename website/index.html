@@ -5,181 +5,6 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="Lieu-powered DWebYVR webring. Contribute to DWebYVR/localhost_vancouver_webring development by creating an account on GitHub.">
 	<title>LOCALHOST DWeb Vancouver Webring</title>
-	<!-- CSS from https://codepen.io/wheatup/pen/GRyxmRb -->
-	<style type="text/css">
-		*,
-		*::before,
-		*::after {
-			box-sizing: border-box;
-			margin: 0;
-			padding: 0;
-		}
-
-		ul,
-		ol {
-			list-style: none;
-			font-family: 'Grape Nuts', cursive;
-			font-size: 2.4rem;
-			color: midnightblue;
-		}
-
-		html {
-			font-size: 62.5%;
-
-			@media only screen and (max-width: 624px) {
-				font-size: 50%;
-			}
-
-			body {
-				font-size: 1.6rem;
-				font-family: Verdana, Geneva, Tahoma, sans-serif;
-				min-height: 100vh;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3)), url(paper.jpeg);
-			}
-		}
-
-		h1,
-		h2,
-		h3 {
-			margin-top: 2rem;
-			font-family: cursive;
-			color: saddlebrown;
-			position: relative;
-			display: flex;
-			align-items: center;
-			font-size: 4rem;
-
-			&::before,
-			&::after {
-				content: '';
-				display: block;
-				width: 5rem;
-				height: 2px;
-				background-color: currentColor;
-				margin: 0 1rem;
-			}
-		}
-
-		h2 {
-			font-size: 3.2rem;
-		}
-
-		h3 {
-			font-size: 2.8rem;
-		}
-
-		ul:not(ul ul) {
-			padding: 2rem;
-			padding-bottom: 4rem;
-			display: grid;
-			grid-template-columns: max-content;
-			z-index: 1;
-			position: relative;
-			perspective: 50vw;
-			transform-style: preserve-3d;
-
-			.done {
-				text-decoration: line-through;
-			}
-
-			>li {
-				--levitate: 0;
-				padding: 1.2rem 2rem;
-				background-color: pink;
-				position: relative;
-				transform-style: preserve-3d;
-				cursor: pointer;
-				position: relative;
-				transition: transform 0.3s;
-
-				&::after {
-					content: '';
-					pointer-events: none;
-					display: block;
-					position: absolute;
-					width: 100%;
-					height: 100%;
-					left: 0;
-					top: 0;
-					opacity: 0;
-					transition: opacity 0.3s;
-					z-index: 1;
-					mix-blend-mode: overlay;
-					background-image: linear-gradient(to left, #ffe4b2, #c8b188);
-				}
-
-				&:hover {
-					--levitate: 1;
-
-					&::before {
-						transform: translate3d(6rem, 1rem, -1px) scale(calc(1 - var(--levitate) * 0.1)) rotate(1.5deg);
-						filter: blur(8px);
-					}
-
-					&::after {
-						opacity: 0.6;
-					}
-				}
-
-				&.big {
-					background-color: lightgreen;
-					padding: 1.6rem 2rem;
-					padding-bottom: 3rem;
-				}
-
-				ul {
-					margin-top: 0.5em;
-					margin-left: 1em;
-					font-size: 0.8em;
-
-					li {
-						z-index: 1;
-
-						&:first-letter {
-							font-size: 1.4em;
-						}
-					}
-				}
-
-				&:not(:first-of-type) {
-					margin-top: 3rem;
-				}
-
-				&:nth-child(3n) {
-					transform: translate3d(-5px, calc(var(--levitate) * -5px), calc(var(--levitate) * 3rem)) rotate(-0.6deg) rotateX(calc(var(--levitate) * 6deg)) rotateY(calc(var(--levitate) * -3deg));
-				}
-
-				&:nth-child(3n-1) {
-					transform: translate3d(7px, calc(var(--levitate) * -5px), calc(var(--levitate) * 3rem)) rotate(-0.5deg) rotateX(calc(var(--levitate) * 6deg)) rotateY(calc(var(--levitate) * -3deg));
-				}
-
-				&:nth-child(3n-2) {
-					transform: translate3d(0px, calc(var(--levitate) * -5px), calc(var(--levitate) * 3rem)) rotate(0.5deg) rotateX(calc(var(--levitate) * 6deg)) rotateY(calc(var(--levitate) * -3deg));
-				}
-
-				&::before {
-					content: '';
-					display: block;
-					position: absolute;
-					width: 100%;
-					height: 100%;
-					left: 0;
-					top: 0;
-					transition: all 0.3s;
-					height: calc(100% - 2px);
-					background-color: rgba(0, 0, 0, 0.4);
-					z-index: -1;
-					transform-origin: bottom left;
-					transform: translate3d(8px, 2px, -1px) rotate(1deg);
-					filter: blur(2px);
-				}
-			}
-		}
-	</style>
-</head>
 
 <body>
 	<h1>LOCALHOST DWeb Vancouver Webring</h1>
@@ -213,7 +38,7 @@
 				and Technology Society</li>
 			<li><a href="https://lu.ma/future-proof?tag=ai%20meetup">Vancouver AI Community</a> Luma calendar</li>
 			<li><a href="https://lu.ma/van-techies">van-techies</a>: A social group of tech folks in Vancouver. Come for the vibes, stay for the nerd snipes.</li>
-		
+
 		</li>
 
 	</ul>
@@ -281,7 +106,7 @@
 				<li><a href="https://notes.commonscomputer.com/M5zCgWegQWKReRgMrIscPA?both">LOCALHOST Hack Day</a>: attendees, projects, and topics worked on.</li>
 			</ul>
 		</li>
-		
+
 		<li><a href="https://www.stolonmesh.ca/">Stolon Mesh</a>: wireless mesh network stewarded by 221A</li>
 	</ul>
 

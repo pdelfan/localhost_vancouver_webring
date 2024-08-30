@@ -1,0 +1,30 @@
+---
+import { Image } from "astro:assets";
+import Input from "../../inputs/Input.astro";
+---
+
+<header class="flex flex-col gap-4 max-w-5xl mx-auto">
+    <div class="flex flex-wrap justify-between items-center gap-5">
+        <div class="flex flex-col">
+            <div class="flex gap-3">
+                <a href="/">
+                    <Image
+                        src={"/favicon.svg"}
+                        width={45}
+                        height={45}
+                        alt="DWeb Vancouver Webring logo"
+                        class="rounded-md"
+                        loading="eager"
+                    />
+                </a>
+                <div class="flex flex-wrap flex-col">
+                    <span class="text-stone-300 font-medium">LOCALHOST </span>
+                    <span class="text-stone-300 font-medium"
+                        >DWeb Vancouver Webring</span
+                    >
+                </div>
+            </div>
+        </div>
+        <Input type="text" placeholder="Explore the Vancouver community" />
+    </div>
+</header>

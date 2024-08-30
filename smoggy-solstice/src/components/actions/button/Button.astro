@@ -1,0 +1,38 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Variant = "primary" | "secondary";
+
+interface Props extends HTMLAttributes<"button"> {
+    title: string;
+    href?: string;
+    variant?: Variant;
+}
+
+const getButtonVariantClass = (variant: Variant) => {
+    switch (variant) {
+        case "secondary":
+            return "bg-skin-button-secondary text-skin-button-secondary hover:bg-skin-button-secondary/90";
+        default:
+            return "bg-skin-button-base text-skin-button-base hover:bg-skin-button-base/90";
+    }
+};
+
+const { title, href, variant = "primary", ...rest } = Astro.props;
+const className =
+    "flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md max-w-fit";
+
+const variantClassName = getButtonVariantClass(variant);
+---
+
+{
+    href ? (
+        <a href={href} class={`${className} ${variantClassName}`}>
+            {title}
+        </a>
+    ) : (
+        <button class={`${className} ${variantClassName}`} {...rest}>
+            {title}
+        </button>
+    )
+}

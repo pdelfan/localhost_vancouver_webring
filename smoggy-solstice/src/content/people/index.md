@@ -1,0 +1,21 @@
+---
+title: People
+---
+
+- [Boris Mann](https://bmannconsulting.com/): personal blog and digital garden
+  - [Foodwiki](https://foodwiki.bmann.ca/): Boris' TiddlyWiki powered FoodWiki
+- [David Luecke @ Github](https://github.com/daffl)
+  - [FeathersJS](https://feathersjs.com/): open source API and Real-time Application Framework
+  - [Feathers Cloud](https://feathers.cloud/): commercial hosting for FeathersJS
+- [Nicholas Tsang](https://www.nicktsan.com/): personal portfolio website and blog.
+  - [Nicholas' Github profile.](https://github.com/nicktsan)
+- [Kris Krüg](https://www.kriskrug.co/): personal website and blog.
+  - [KK's AI workshops & trainings.](https://www.futureproofcreatives.com/)
+- [Graham Fleming](https://grahamfleming.com/): personal website and links
+- [Anish Lakhwara](https://anish.lakhwara.com/): personal wikigardenblog
+- [Carl Sverre](https://carlsverre.com/): personal blog and links
+  - [SQLSync](https://sqlsync.dev/): open source multiplayer SQLite
+- [Chad Kohalyk](https://chadkohalyk.com/): Personal site with links to microblog and socials.
+- [Dustin Brett](https://dustinbrett.com/): personal website and blog
+  - [daedalOS](https://github.com/DustinBrett/daedalOS): open source side project
+- [Vladimir Nikolic](https://vlich.net/): personal website
