@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply bg-skin-base m-3;
+        @apply font-mono bg-skin-base m-3;
     }
 
     main {
@@ -33,11 +33,11 @@
         }
 
         a {
-            @apply text-skin-link bg-secondary/20 p-1 rounded-md hover:bg-secondary/30;
+            @apply text-lime-300 bg-lime-300/10 p-1 hover:bg-lime-300/20;
         }
     }
 }
 
-html {
+/* html {
     font-family: system-ui, sans-serif;
-}
+} */

@@ -20,7 +20,7 @@ const getButtonVariantClass = (variant: Variant) => {
 
 const { title, href, variant = "primary", ...rest } = Astro.props;
 const className =
-    "flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md max-w-fit";
+    "flex items-center gap-2 px-3 py-1.5 text-sm font-bold";
 
 const variantClassName = getButtonVariantClass(variant);
 ---

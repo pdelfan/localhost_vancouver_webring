@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#0001FF",
+          DEFAULT: "#0156F7",
         },
         secondary: {
           DEFAULT: "#FFBA28",
@@ -13,7 +13,7 @@ export default {
       },
       backgroundColor: {
         skin: {
-          base: "#110904",
+          base: "#161616",
           secondary: "#1A1F22",
           button: {
             base: "#F8F9FA",
